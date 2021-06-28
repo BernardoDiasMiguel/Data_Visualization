@@ -84,12 +84,12 @@ home_page = html.Div([
         ])
 
 app.layout = html.Div([
-    html.H1('NBA Stats', className='Title'),
+    html.H1('Finding the best college basketball of USA', className='Title'),
     dcc.Tabs([
             dcc.Tab(label='Home', children=[
                 home_page
             ]),
-            dcc.Tab(label='Dashboard', children=[
+            dcc.Tab(label='College Analysis', children=[
                 html.Div([
     html.Div([
         html.Div([
