@@ -61,7 +61,7 @@ home_page = html.Div([
                     dcc.Markdown(
                     '''
                     #### Github
-                    Find the code that serves this app at [](https://github.com/BernardoDiasMiguel/Data_Visualization).
+                    Find the code that serves this app at this [link](https://github.com/BernardoDiasMiguel/Data_Visualization).
                     '''),
                     html.Br(),
                     dcc.Markdown('''
