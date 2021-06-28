@@ -75,8 +75,16 @@ home_page = html.Div([
                 dcc.Markdown('''
                 |     Variable     |    Type  |  Description                                                |
                 |-------------------------|:-----------------:|-----------------------------------------------------------------------|
-                | MVP | Numeric (int) | Most Valuable Player |
-                | Col1 | Col2 | Col3 |
+                | Year | Numeric (dec) | The year regarding the NBA season |
+                | Player | String | The name of the player |
+                | TM | String | The team initials of the player |
+                | PTS | Numeric (dec) | Number of points in a given year in a given season by a given player |
+                | TRB | Numeric (dec) | Number of total rebounds in a given year in a given season by a given player |
+                | ASS | Numeric (dec) | Number of assists in a given year in a given season by a given player |
+                | MVP | Boolean | Boolean describing if a given player was the best player in a given season |
+                | BDP | Boolean (dec) | Boolean describing if a given player was the best defensive player in a given season |
+                | Champion | Boolean | Boolean describing if a given team’s player was champion in a given season |
+                | PRA | Numeric(dec) | sum of all points, assists and total rebounds of a given player in a given season |
                 '''),
                 ],
                 className="row", style={'width': '80%', 'display': 'inline-block'}),
