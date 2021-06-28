@@ -110,7 +110,7 @@ app.layout = html.Div([
             ),
             html.Br(),
             html.H4('Linear Log', className = 'h4'),
-            html.P('Selecting log transforms continous indicators variables to better measure'),
+            html.P('Selecting log'),
             dcc.RadioItems(
                 id='lin_log',
                 options=[dict(label='Linear', value=0), dict(label='log', value=1)],
